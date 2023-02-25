@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class TestCase1 {
 	
 	@BeforeMethod
-	public void createDBConn() {
+	public void createDBConn() { 
 		System.out.println("Creating db conn");
 	}
 	
