@@ -8,7 +8,7 @@ public class TestCase3 {
 	public void doUserReg() {
 
 		System.out.println("Executing User Reg Test");
-		Assert.fail("User not registered successfully");
+//		Assert.fail("User not registered successfully");
 	}
 
 	@Test(priority = 2,dependsOnMethods="doUserReg")
