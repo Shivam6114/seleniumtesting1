@@ -8,7 +8,7 @@ public class TestCase1 {
 	
 	@BeforeMethod
 	public void createDBConn() { 
-		System.out.println("testing jenkins");
+		System.out.println("Creating db conn");
 		System.out.println("Creating db conn");
 	}
 	
