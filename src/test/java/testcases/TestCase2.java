@@ -9,7 +9,7 @@ public class TestCase2 {
 	@Test
 	public void validateTitles() {
 		String expected_title = "Yahoo.com";
-		String actual_title = "Yahoo.com";
+		String actual_title = "gmail.com";
 		
 		SoftAssert SoftAssert = new SoftAssert();
 		
